@@ -24,7 +24,7 @@ class Office365:
         """
         Grabs a security Token to authenticate to Office 365 services
         """
-        url = "https://login.microsoftonline.com/extSTS.srf"
+        url = "https://login.microsoftonline.us/extSTS.srf"
         body = """
                 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope"
                   xmlns:a="http://www.w3.org/2005/08/addressing"
